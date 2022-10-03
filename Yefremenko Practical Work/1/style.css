@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+div {
+  border: 2px solid;
+  
+}
+.container {
+  padding: 5px;
+  width: 722px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+.block {
+  width: 340px;
+  height: 23px;
+}
+
+.item1, .item4 {
+ order: 4; 
+}
+.item2 {
+  order: 2;
+}
+.item5 {
+  order: 5;
+}

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+div {
+  border: 2px solid;
+  
+}
+.container {
+  padding: 5px;
+  height: 125px;
+  display: flex;
+}
+.block {
+  height: 23px;
+}
+.item1, .item5 {
+  align-self: end;
+}
+.item2, .item4 {
+  align-self: center;
+}
+
